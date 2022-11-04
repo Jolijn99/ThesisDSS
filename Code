@@ -1,0 +1,11 @@
+### Testing
+The described characteristic of memory can be tested for using the Bartels rank test and by inspecting autocorrelation functions. The first tests the memory by assessing dependency of past values and the latter by long-range temporal correlations.
+ 
+The data of the young male's heartrate, introduced in the previous blog, is used to show how those tests can be applied.
+
+
+``` 
+data <- read.csv("Actigraph.csv")
+plot(data$HR, type = "l", xlab = "Time", ylab = "Heartrate", main = "Plot Heartrate")
+
+```
