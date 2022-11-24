@@ -1,4 +1,4 @@
-# Code thesis Jolijn Eikelboom
+# Code thesis 
 In this readme file the full code for my thesis can be found.
 I started with loading all necessities. 
 
